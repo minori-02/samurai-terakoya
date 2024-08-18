@@ -19,6 +19,12 @@ PC用のスタイル
     margin: 0 auto 0 auto;
   }
 
+  /* スマホ用ナビを非表示 */
+  #nav-sp,
+  #menu-sp {
+    display: none;
+  }
+
   /* ヘッダー */
   header {
     display: flex;
@@ -790,6 +796,16 @@ PC用のスタイル
     background-image: url("images/arrow.png");
     background-repeat: no-repeat;
     background-position: right top;
+  }
+
+  #sns {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  #sns > a {
+    margin-right: 30px;
   }
 }
 /* mission.html用スタイル */
